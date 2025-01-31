@@ -30,31 +30,25 @@ To get a local copy up and running, follow these simple steps:
 ### 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/wanderlust.git
-2. Install dependencies:
-bash
-Copy
-Edit
-cd wanderlust
-npm install
-3. Set up environment variables:
-Create a .env file in the root directory and add the following:
 
-makefile
-Copy
-Edit
+
+Install dependencies:
+ cd wanderlust
+ npm install
+
+
+Set up environment variables:
+Create a .env file in the root directory and add the following:
 DB_URI=your_mongo_db_connection_string
 CLOUDINARY_URL=your_cloudinary_url
 SESSION_SECRET=your_session_secret
-4. Start the application:
-bash
-Copy
-Edit
-npm start
-5. Open the application in the browser:
+
+Open the application in the browser:
 Visit http://localhost:3000 to access the app locally.
 
 Deployment
-The app is deployed on Render and can be accessed at: https://wanderlust-t94q.onrender.com/listings
+The app is deployed on Render and can be accessed at:
+https://wanderlust-t94q.onrender.com/listings
 
 API Routes
 GET /listings: Displays all listings.
@@ -69,11 +63,7 @@ POST /logout: User logout.
 GET /register: User registration form.
 POST /register: User registration.
 
-
 Acknowledgments
 Cloudinary for providing image storage and management.
 Passport.js for handling user authentication.
 Mongoose for MongoDB object modeling.
-vbnet
-Copy
-Edit
